@@ -1,0 +1,54 @@
+html, body{
+  height:100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+  font-size: 17px;
+  line-height: 1.5rem;
+  color: #4A4A4A;
+}
+
+body{
+  width: 100%;
+  background: #439FE0;
+  background-image: -webkit-linear-gradient(-70deg,#4280c5 13%,#59f0ff 100%);
+  background-image: -moz-linear-gradient(-70deg,#4280c5 13%,#59f0ff 100%);
+  background-image: -o-linear-gradient(-70deg,#4280c5 13%,#59f0ff 100%);
+  background-image: linear-gradient(160deg,#4280c5 13%,#59f0ff 100%);
+  overflow: hidden;
+  color: #FFF;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 60px;
+  margin: 125px 1rem 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,.1);
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: -webkit-transform 420ms cubic-bezier(.165,.84,.44,1);
+  -moz-transition: -moz-transform 420ms cubic-bezier(.165,.84,.44,1);
+  transition: transform 420ms cubic-bezier(.165,.84,.44,1);
+}
+
+input[type=text], input[type=tel], input[type=number], input[type=email], input[type=password], select, textarea {
+  font-size: 1.25rem;
+  padding: .75rem;
+  border: 1px solid #C5C5C5;
+  border-radius: .25rem;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: 0;
+  color: #555459;
+  width: 100%;
+  max-width: 100%;
+  font-family: Lato,appleLogo,sans-serif;
+  margin: 0 0 .5rem;
+  -webkit-transition: all .07s ease-out .0000001ms;
+  -moz-transition: all .07s ease-out .0000001ms;
+  transition: all .07s ease-out .0000001ms;
+}
