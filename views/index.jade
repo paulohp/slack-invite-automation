@@ -6,9 +6,18 @@ html
     link(rel="stylesheet", href="/styles.css")
   body
     header
-      h1 Join the #{community} br community on Slack!
+      nav.top
+        a(href="https://slack.com/").logo
+      h1 
+        | Join the #{community} <br/> 
+        | community on Slack!
     form(method="POST", action="/invite")#join-form
       input(type="text", name="email", placeholder="Enter your email")#slack-email
+      button(type="submit").btn Continue >
+    
+    footer
+      small Made with ♥ by a bunch of nerds on github
+
     script.
       var form = document.getElementById('join-form');
       var email = document.getElementById('slack-email')

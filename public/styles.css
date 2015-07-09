@@ -1,3 +1,15 @@
+
+nav {
+  display: table;
+  margin: 50px auto;
+}
+nav .logo {
+  background: url(https://slack.global.ssl.fastly.net/9b7a/img/landing/header_logo_sprite@2x.png) left top/106px 60px no-repeat;
+  height: 30px;
+  width: 106px;
+  float: left;
+  margin: 20px 0 0 20px;
+}
 html, body{
   height:100%;
   margin: 0;
@@ -35,20 +47,38 @@ header h1 {
   transition: transform 420ms cubic-bezier(.165,.84,.44,1);
 }
 
+form {
+  width: 40%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
 input[type=text], input[type=tel], input[type=number], input[type=email], input[type=password], select, textarea {
   font-size: 1.25rem;
   padding: .75rem;
   border: 1px solid #C5C5C5;
-  border-radius: .25rem;
+  border-radius: .25rem 0 0 .25rem;
   -webkit-appearance: none;
   appearance: none;
   outline: 0;
   color: #555459;
-  width: 100%;
+  width: 60%;
   max-width: 100%;
   font-family: Lato,appleLogo,sans-serif;
   margin: 0 0 .5rem;
   -webkit-transition: all .07s ease-out .0000001ms;
   -moz-transition: all .07s ease-out .0000001ms;
   transition: all .07s ease-out .0000001ms;
+}
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid #56B68B;
+  border-radius: 0 4px 4px 0;
+  background: #56B68B;
+  color: #FFF;
+  line-height: 52px;
+  padding: 0 22px;
 }
