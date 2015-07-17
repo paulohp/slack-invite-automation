@@ -11,7 +11,7 @@ and
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Setting
-fill out `config.js` as your infomation.
+fill out `config.js` as your infomation or set the ENV variables on Heroku:
 
 * `community`: your community or team name to display on join page.
 * `slackUrl` : your slack team url (ex: socketio.slack.com)
@@ -30,7 +30,7 @@ fill out `config.js` as your infomation.
 [Node.js](http://nodejs.org/) is required.
 
 ```shell
-$ git clone git@github.com:outsideris/slack-invite-automation.git
+$ git clone git@github.com:paulohp/slack-invite-automation.git
 $ cd slack-invite-automation
 $ npm install
 $ bin/www
@@ -38,4 +38,4 @@ $ bin/www
 
 You can access <http://localhost:3000> on your web browser.
 
-![](https://raw.github.com/outsideris/slack-invite-automation/master/screenshots/join-page.png)
+![](https://raw.github.com/paulohp/slack-invite-automation/master/screenshots/join-page.png)
